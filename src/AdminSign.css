@@ -1,0 +1,103 @@
+/* Container for the signin form */
+.signin-container {
+    max-width: 500px; /* Increased the width */
+    margin: 60px auto; /* Adjusted margin for more spacing */
+    padding: 30px; /* Increased padding for more space inside */
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    transition: all 0.3s ease;
+}
+
+.signin-container:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Title styling */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Arial', sans-serif;
+    font-size: 26px; /* Increased font size */
+    color: #333;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+input {
+    width: 100%;
+    padding: 14px; /* Increased padding for larger input fields */
+    border-radius: 6px; /* Slightly larger radius */
+    border: 1px solid #ccc;
+    font-size: 18px; /* Increased font size */
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+/* Button styling */
+.signin-btn {
+    width: 100%;
+    padding: 14px; /* Increased button padding */
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px; /* Slightly larger border radius */
+    font-size: 20px; /* Larger font for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signin-btn:hover {
+    background-color: #43a047;
+}
+
+/* Error and success message styling */
+.success-msg, .error-msg {
+    text-align: center;
+    font-size: 18px; /* Increased font size */
+    margin-bottom: 20px; /* Added more spacing */
+    padding: 12px; /* Increased padding */
+    border-radius: 5px; /* Larger radius */
+}
+
+.success-msg {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.error-msg {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .signin-container {
+        margin: 30px auto;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    input {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .signin-btn {
+        font-size: 18px;
+        padding: 12px;
+    }
+}

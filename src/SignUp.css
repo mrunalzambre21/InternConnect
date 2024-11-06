@@ -1,0 +1,89 @@
+/* Signup Page Styles */
+.signup-page {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.signup-page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+.signup-options {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 30px;
+}
+
+.signup-option {
+  background-color: #007BFF;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.signup-option:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Login Section Styles */
+.login-section {
+  margin-top: 60px;
+}
+
+.login-section h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #555;
+  font-weight: bold;
+}
+
+.login-options {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.login-option {
+  background-color: #FFC107;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-option:hover {
+  background-color: #e0a800;
+  transform: scale(1.05);
+}
+
+/* Ensure consistency and responsiveness */
+@media (max-width: 768px) {
+  .signup-options, .login-options {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .signup-option, .login-option {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+  }
+
+  .signup-page h2 {
+    font-size: 2rem;
+  }
+
+  .login-section h3 {
+    font-size: 1.6rem;
+  }
+}

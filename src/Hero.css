@@ -1,0 +1,32 @@
+/* src/components/Hero.css */
+.hero {
+    background: url('your-hero-image-url.jpg') no-repeat center center/cover; /* Make sure to replace with your image path */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #f39c12; /* Button color */
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none; /* Remove underline for Link */
+    border-radius: 5px; /* Add some rounding */
+    font-size: 1.2rem; /* Font size */
+  }
+  
+  .cta-button:hover {
+    background-color: #d35400; /* Darker shade on hover */
+  }
+  

@@ -1,0 +1,98 @@
+.admin-details-container {
+  max-width: 600px; /* Set a maximum width for the form */
+  margin: 20px auto; /* Center the form on the page */
+  padding: 20px; /* Add padding */
+  border: 1px solid #ddd; /* Optional: add border */
+  border-radius: 5px; /* Optional: rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  background-color: #fff; /* Optional: background color */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.admin-details-form {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make label bold */
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%; /* Full width */
+  padding: 10px; /* Add padding inside input */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 5px; /* Rounded corners for input fields */
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+.submit-button {
+  padding: 10px; /* Padding inside button */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for button */
+  background-color: #007bff; /* Button color */
+  color: white; /* Button text color */
+  font-size: 16px; /* Button text size */
+  cursor: pointer; /* Pointer on hover */
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Success Message Styles */
+.success-message {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #dff0d8; /* Light green background */
+  color: #3c763d; /* Dark green text */
+  border: 1px solid #d6e9c6; /* Green border */
+  border-radius: 4px;
+  text-align: center; /* Center align text */
+}
+
+/* Error Message Styles */
+.error-message {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f2dede; /* Light red background */
+  color: #a94442; /* Dark red text */
+  border: 1px solid #ebccd1; /* Red border */
+  border-radius: 4px;
+  text-align: center; /* Center align text */
+}
+
+/* Responsive styles */
+@media (max-width: 576px) {
+  .admin-details-container {
+    padding: 15px; /* Reduce padding on smaller screens */
+  }
+
+  h2 {
+    font-size: 24px; /* Smaller heading on mobile */
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    font-size: 14px; /* Smaller input font size on mobile */
+  }
+
+  .submit-button {
+    font-size: 14px; /* Smaller button font size on mobile */
+  }
+
+  .success-message,
+  .error-message {
+    font-size: 14px; /* Smaller message font size on mobile */
+  }
+}
