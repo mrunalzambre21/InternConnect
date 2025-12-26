@@ -1,6 +1,6 @@
 InternConnect – Internship & Job Opportunity Portal
 
-InternConnect is a MERN stack web application created for college use to simplify sharing internship and job opportunities. In our college, faculty sent multiple emails for every placement update, which caused confusion. This platform provides one place where all opportunities are posted and viewed.
+<h2>InternConnect is a MERN stack web application created for college use to simplify sharing internship and job opportunities. In our college, faculty sent multiple emails for every placement update, which caused confusion. This platform provides one place where all opportunities are posted and viewed.</h2>
 ----------------------------------------------------------------------------------------------------
 Purpose:
 -> Reduce repeated placement emails
