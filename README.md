@@ -1,24 +1,70 @@
-<h1>InternConnect – Internship & Job Opportunity Portal </h1>
+# InternConnect – Internship & Job Opportunity Portal
 
-<h3>InternConnect is a MERN stack web application created for college use to simplify sharing internship and job opportunities. In our college, faculty sent multiple emails for every placement update, which caused confusion. This platform provides one place where all opportunities are posted and viewed.</h3>
-<br>
-Purpose:
--> Reduce repeated placement emails
-->Provide a single portal for internship/job updates
-->Save time for students and faculty
-->Make information easy to track
+InternConnect is a **MERN stack web application** designed for college use to simplify the sharing of internship and job opportunities.
 
-Tech Stack :
-->Frontend: React + Vite
-->Backend: Node.js & Express
-->Database: MongoDB Atlas
-->Email: SendGrid
-->Styling: CSS3
+In many colleges, placement updates are sent via multiple emails, which often leads to confusion and missed opportunities. **InternConnect solves this by providing a single centralized portal** where all internship and job postings can be viewed and managed easily.
 
-What I Learned: 
+---
 
-MERN stack development
-REST API creation
-CRUD operations
-Authentication flow
-</br>
+## 🚀 Features
+
+- Centralized portal for internship & job postings  
+- Admin dashboard to post, edit, and delete opportunities  
+- Student-friendly interface to view opportunities  
+- Secure authentication & authorization  
+- Email notifications using SendGrid  
+
+---
+
+## 🎯 Purpose
+
+- Reduce repeated placement emails  
+- Provide a single platform for all internship/job updates  
+- Save time for students and faculty  
+- Make placement information easy to track and manage  
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- CSS3
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB Atlas
+
+### Other Tools
+- SendGrid (Email Service)
+- REST APIs
+- JWT Authentication
+
+---
+
+## 📚 What I Learned
+
+- MERN stack development  
+- REST API creation  
+- CRUD operations  
+- Authentication & authorization flow  
+- Backend–frontend integration  
+- Real-world project structure  
+
+---
+
+## 📂 Project Type
+
+- Full Stack Web Application  
+- College-level Placement Portal  
+
+---
+
+## 👨‍💻 Author
+
+**Mrunal Zambre**  
+B.Tech in Computer Science  
